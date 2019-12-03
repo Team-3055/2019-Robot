@@ -66,7 +66,7 @@ public class Robot extends TimedRobot {
   Solenoid test = new Solenoid(4);
   Solenoid climbFeet = new Solenoid(5);
   Solenoid climbFeet2 = new Solenoid(6);
-  WPI_TalonSRX frontLeftMotor = (new WPI_TalonSRX(2)); //FL 4, FR 3 RL 5 RR 2 
+  WPI_TalonSRX frontLeftMotor = (new WPI_TalonSRX(2)); //FL 2, FR 5 RL 3 RR 4 
   WPI_TalonSRX frontRightMotor = (new WPI_TalonSRX(5));
   WPI_TalonSRX rearLeftMotor = (new WPI_TalonSRX(3));
   WPI_TalonSRX rearRightMotor = (new WPI_TalonSRX(4));
